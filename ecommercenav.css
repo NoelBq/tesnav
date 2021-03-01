@@ -53,17 +53,34 @@
     color: var(--englishbrown);
 }
 
-
+.form-inline {
+    border-bottom: 1px solid;
+    border-color: var(--englishbrown);
+}
 
 .form-inline .form-control {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+
 }
 
 .form-inline .btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    background-color: white;
+    color: var(--englishbrown);
+
 }
+
+input[type=search] {
+    border: none;
+}
+
+input[type="search"]:focus { 
+    outline: none;
+    box-shadow: none;
+}
+
 
 
 @media (min-width: 768px) {
@@ -266,3 +283,4 @@ ul.social-icons {
     left: auto;
     right: 0;
 }
+
